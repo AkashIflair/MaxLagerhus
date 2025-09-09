@@ -63,7 +63,7 @@
                         { field: 'unitPrice', headerText: 'Unit Price', width: 150, minWidth: 150, format: 'N2' },
                         { field: 'quantity', headerText: 'Quantity', width: 150, minWidth: 150 },
                         { field: 'total', headerText: 'Total', width: 150, minWidth: 150, format: 'N2' },
-                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'yyyy-MM-dd HH:mm' }
+                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'dd-MM-yyyy HH:mm' }
                     ],
                     aggregates: [
                         {

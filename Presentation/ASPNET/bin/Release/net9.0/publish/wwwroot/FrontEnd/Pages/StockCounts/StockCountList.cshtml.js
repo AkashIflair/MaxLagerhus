@@ -75,7 +75,7 @@
             create: () => {
                 countDatePicker.obj = new ej.calendars.DatePicker({
                     placeholder: 'Select Date',
-                    format: 'yyyy-MM-dd',
+                    format: 'dd-MM-yyyy',
                     value: state.countDate ? new Date(state.countDate) : null,
                     change: (e) => {
                         state.countDate = e.value;
@@ -473,10 +473,10 @@
                             field: 'id', isPrimaryKey: true, headerText: 'Id', visible: false
                         },
                         { field: 'number', headerText: 'Number', width: 150, minWidth: 150 },
-                        { field: 'countDate', headerText: 'Count Date', width: 150, format: 'yyyy-MM-dd' },
+                        { field: 'countDate', headerText: 'Count Date', width: 150, format: 'dd-MM-yyyy' },
                         { field: 'warehouseName', headerText: 'Warehouse', width: 150, minWidth: 150 },
                         { field: 'statusName', headerText: 'Status', width: 150, minWidth: 150 },
-                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'yyyy-MM-dd HH:mm' }
+                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'dd-MM-yyyy HH:mm' }
                     ],
                     toolbar: [
                         'ExcelExport', 'Search',

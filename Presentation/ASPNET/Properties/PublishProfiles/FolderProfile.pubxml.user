@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\WMS\Asp.Net-Core-Inventory-Order-Management-System-ASP.NET-9.0\Presentation\ASPNET\bin\Release\net9.0\publish\</_PublishTargetUrl>
-    <History>True|2025-09-08T10:16:58.6973610Z||;</History>
+    <History>True|2025-09-09T05:27:49.0870793Z||;True|2025-09-08T15:46:58.6973610+05:30||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

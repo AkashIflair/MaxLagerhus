@@ -781,7 +781,7 @@
                         { field: 'street', headerText: 'Street', width: 200, minWidth: 200 },
                         { field: 'phoneNumber', headerText: 'Phone', width: 200, minWidth: 200 },
                         { field: 'emailAddress', headerText: 'Email', width: 200, minWidth: 200 },
-                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'yyyy-MM-dd HH:mm' }
+                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'dd-MM-yyyy HH:mm' }
                     ],
                     toolbar: [
                         'ExcelExport', 'Search',
@@ -940,7 +940,7 @@
                         { field: 'phoneNumber', headerText: 'Phone', width: 200, minWidth: 200, validationRules: { required: true } },
                         { field: 'emailAddress', headerText: 'Email', width: 200, minWidth: 200, validationRules: { required: true } },
                         { field: 'description', headerText: 'Description', width: 400, minWidth: 400 },
-                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'yyyy-MM-dd HH:mm' }
+                        { field: 'createdAtUtc', headerText: 'Created At UTC', width: 150, format: 'dd-MM-yyyy HH:mm' }
                     ],
                     toolbar: [
                         'ExcelExport', 'Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search'
